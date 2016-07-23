@@ -1,2 +1,2 @@
 #!/bin/bash
-exec hhvm --mode server -vServer.Type=fastcgi -vServer.Port=9000
+exec hhvm --mode server -d hhvm.server.type=fastcgi -d hhvm.server.port=9000 -d hhvm.server.source_root=/app/

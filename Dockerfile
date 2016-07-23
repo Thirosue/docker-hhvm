@@ -10,7 +10,9 @@ RUN apt-get update \
         && apt-get install -y hhvm 
 
 ADD scripts/ /scripts/
-RUN chmod 755 /scripts/*.sh 
+ADD .hhconfig /app/
+RUN chmod 755 /scripts/*.sh \
+        && chmod 755 /app/
 
 EXPOSE 9000
 
