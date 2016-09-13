@@ -1,5 +1,7 @@
 # docker-hhvm
 
+[![](https://images.microbadger.com/badges/image/mirrored1976/hhvm.svg)](https://microbadger.com/images/mirrored1976/hhvm "Get your own image badge on microbadger.com")
+
 ## RUN Not FastCGI
 ```
 #start script replace
